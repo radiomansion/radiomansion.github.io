@@ -1,0 +1,35 @@
+body, html{
+  margin:25px;
+}
+
+h1 {
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-weight: normal;
+}
+
+
+
+p {
+  width:600px;
+  font-family:arial;
+  font-size:13px;
+  line-height:15px;
+  transform: rotate(-10deg);
+}
+
+p:hover {
+    transform: rotate(0deg);
+}
+
+@media only screen and (max-width: 620px) {
+
+
+  p {
+    width:250px;
+    font-family:arial;
+    font-size:13px;
+    line-height:15px;
+  }
+
+
+}
