@@ -2,33 +2,129 @@ body, html{
   margin:25px;
 }
 
+.column-left{
+  float: left;
+  width: 45%;
+  margin:15px;
+}
+
+.column-right{
+float:right;
+width: 45%;
+margin:20px;
+color: gray;
+transform: rotate(-20deg);
+}
+
 h1 {
   font-family: "Arial Narrow", Arial, sans-serif;
   font-weight: normal;
+  margin-left:100px;
+}
+
+h2 {
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-weight: normal;
+  text-align:right;
 }
 
 
+.collaboration {
+  transform: rotate(90deg);
+  transform-origin: left top 0;
+  position: fixed;
+}
+
+
+
+h3 {
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-weight: normal;
+  text-align:left;
+  font-size: 15px;
+}
+
+h4 {
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 30px;
+  margin: 0px;
+}
 
 p {
-  width:600px;
   font-family:arial;
-  font-size:13px;
-  line-height:15px;
-  transform: rotate(-10deg);
+  font-size:15px;
+  line-height:17px;
 }
 
-p:hover {
-    transform: rotate(0deg);
+h5 {
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-weight: normal;
+  margin-left:20px;
+  font-size: 70px;
+  transform: rotate(30deg);
+  margin: 800px;
+
 }
 
-@media only screen and (max-width: 620px) {
+.credits {
+  width:100%;
+}
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+
+  h1 {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-weight: normal;
+    margin-left:20px;
+    font-size:23px;
+  }
+
 
 
   p {
-    width:250px;
     font-family:arial;
     font-size:13px;
-    line-height:15px;
+    line-height:16px;
+    margin-left:5px;
+  }
+
+  h4 {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-weight: normal;
+    font-size: 23px;
+    margin:5px;
+  }
+
+  h2 {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-weight: normal;
+    text-align:left;
+  }
+
+  .column-left{
+    float: left;
+    width: 100%;
+    margin:20px;
+  }
+
+
+  .column-right{
+  float:left;
+  width: 100%;
+  margin:20px;
+  color: gray;
+  transform: rotate(-10deg);
+  }
+
+  .collaboration {
+    transform: rotate(90deg);
+    transform-origin: left top 0;
+    position: fixed;
   }
 
 
