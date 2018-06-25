@@ -51,10 +51,20 @@ h4 {
   margin: 0px;
 }
 
+a {
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 30px;
+  margin: 0px;
+  color: black;
+
+}
 p {
   font-family:arial;
   font-size:15px;
   line-height:17px;
+  margin: 5px;
+
 }
 
 h5 {
@@ -99,6 +109,14 @@ h5 {
     font-size: 23px;
     margin:5px;
   }
+
+  a {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-weight: normal;
+    font-size: 23px;
+    margin:5px;
+    color: black;
+}
 
   h2 {
     font-family: "Arial Narrow", Arial, sans-serif;
